@@ -12,7 +12,7 @@ import Home from './pages/Home'
 const App = () => {
   return (
 <Routes>
-    <Route path='/' element={<Home/>}></Route>
+    <Route path='/cloth' element={<Home/>}></Route>
     <Route path='/men' element={<Men/>}></Route>
     <Route path='/women' element={<Women/>}></Route>
     <Route path='/kids' element={<Kids/>}></Route>
